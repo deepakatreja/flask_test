@@ -11,9 +11,9 @@ Main <a href="/add/23/19">add</a>
 def api_info(a, b):
     return str(a+b)
 
-if __name__ == '__main__': 
+# if __name__ == '__main__': 
   
-    app.run(debug=True, host='0.0.0.0') 
+#     app.run(debug=True, host='0.0.0.0') 
     
 
 
