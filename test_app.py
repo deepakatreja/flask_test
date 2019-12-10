@@ -1,9 +1,8 @@
-# from p1 import myapp
-import app
+from app import myapp
+
 
 def test_hello():
-    response = app.test_client().get('/')
+    response = myapp.test_client().get('/')
 
     assert response.status_code == 200
     assert response.data == b'hello world'
-
